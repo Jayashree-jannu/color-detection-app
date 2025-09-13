@@ -215,7 +215,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 50%, #FFADAD 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(160,196,255,0.3); border: 1px solid rgba(255,255,255,0.3);">
+<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #6B46C1 0%, #8B5CF6 50%, #A855F7 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(107,70,193,0.4); border: 1px solid rgba(255,255,255,0.3);">
     <h1 style="color: white; font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
         <span class="blinking">✨</span> Spot the Shade
     </h1>

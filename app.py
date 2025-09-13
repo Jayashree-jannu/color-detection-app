@@ -30,98 +30,127 @@ st.markdown("""
         padding-top: 2rem;
     }
     .stApp {
-        background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+        background: #F8F9FA;
     }
     .stSidebar {
+        background: linear-gradient(180deg, #A0C4FF 0%, #BDB2FF 100%) !important;
+        color: #343A40 !important;
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.9);
-        border-radius: 10px;
+        border-radius: 12px;
+        border: 1px solid rgba(160,196,255,0.2);
     }
     .stSidebar .stSelectbox label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stTextInput label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stTextArea label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stNumberInput label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stSlider label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stCheckbox label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stRadio label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stMultiSelect label {
+        color: #343A40 !important;
+        font-weight: 500;
     }
     .stSidebar .stSelectbox > div > div > div {
+        color: #495057 !important;
     }
     .stFileUploader > div {
-        background: linear-gradient(180deg, #0984e3 0%, #00b894 100%);
+        background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 100%);
         border-radius: 20px;
-        padding: 1.2rem;
+        padding: 1.5rem;
         color: white;
-        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0 8px 25px rgba(160,196,255,0.3);
+        border: 1px solid rgba(255,255,255,0.2);
+        transition: all 0.3s ease;
+    }
+    .stFileUploader > div:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 30px rgba(160,196,255,0.4);
     }
     .stButton > button {
-        background: linear-gradient(180deg, #0984e3 0%, #00b894 100%);
+        background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 100%);
         color: white;
         border: none;
-        border-radius: 15px;
-        padding: 0.6rem 1.2rem;
-        font-weight: bold;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        border-radius: 20px;
+        padding: 0.8rem 1.5rem;
+        font-weight: 600;
+        box-shadow: 0 6px 20px rgba(160,196,255,0.3);
         transition: all 0.3s ease;
-        border: 1px solid rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
     }
     .stButton > button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(160,196,255,0.4);
+        background: linear-gradient(135deg, #BDB2FF 0%, #A0C4FF 100%);
     }
     .stSidebar .stButton > button {
-        background: linear-gradient(180deg, #0984e3 0%, #00b894 100%);
+        background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 100%);
         color: white;
         border: none;
-        border-radius: 15px;
-        padding: 0.8rem 1.2rem;
-        font-weight: bold;
+        border-radius: 20px;
+        padding: 1rem 1.5rem;
+        font-weight: 600;
         font-size: 1rem;
-        margin: 0.3rem 0;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        margin: 0.5rem 0;
+        box-shadow: 0 6px 20px rgba(160,196,255,0.3);
         transition: all 0.3s ease;
         width: 100%;
-        border: 1px solid rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
     }
     .stSidebar .stButton > button:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-        background: linear-gradient(180deg, #0984e3 0%, #00b894 100%);
-    }
-    .stSidebar .stButton > button[kind='primary'] {
-        background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
-        box-shadow: 0 6px 12px rgba(0,184,148,0.3);
-    }
-    .stSidebar .stButton > button[kind='primary']:hover {
-        background: linear-gradient(135deg, #00cec9 0%, #00b894 100%);
         transform: translateY(-3px);
-        box-shadow: 0 8px 16px rgba(0,184,148,0.4);
+        box-shadow: 0 10px 25px rgba(160,196,255,0.4);
+        background: linear-gradient(135deg, #BDB2FF 0%, #A0C4FF 100%);
+    }
+    .stSidebar .stButton > button[kind="primary"] {
+        background: linear-gradient(135deg, #FFADAD 0%, #FF8A95 100%);
+        box-shadow: 0 6px 20px rgba(255,173,173,0.4);
+    }
+    .stSidebar .stButton > button[kind="primary"]:hover {
+        background: linear-gradient(135deg, #FF8A95 0%, #FFADAD 100%);
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(255,173,173,0.5);
     }
     .stInfo {
-        background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.2);
+        background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 100%);
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.3);
         color: white;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        box-shadow: 0 8px 25px rgba(160,196,255,0.3);
+        padding: 1rem;
     }
     .stSuccess {
-        background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.2);
+        background: linear-gradient(135deg, #BDB2FF 0%, #FFADAD 100%);
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.3);
         color: white;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        box-shadow: 0 8px 25px rgba(189,178,255,0.3);
+        padding: 1rem;
     }
     .stSidebar .stMarkdown {
+        color: #343A40 !important;
     }
     .stSidebar .stMarkdown h1,
     .stSidebar .stMarkdown h2,
@@ -129,8 +158,23 @@ st.markdown("""
     .stSidebar .stMarkdown h4,
     .stSidebar .stMarkdown h5,
     .stSidebar .stMarkdown h6 {
+        color: #343A40 !important;
+        font-weight: 600;
     }
     .stSidebar .stMarkdown p {
+        color: #495057 !important;
+    }
+    .stMarkdown h1,
+    .stMarkdown h2,
+    .stMarkdown h3,
+    .stMarkdown h4,
+    .stMarkdown h5,
+    .stMarkdown h6 {
+        color: #343A40 !important;
+        font-weight: 600;
+    }
+    .stMarkdown p {
+        color: #495057 !important;
     }
     .blinking {
         animation: blink 1.5s infinite;
@@ -171,7 +215,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #0984e3 0%, #00b894 50%, #00cec9 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(9,132,227,0.4); border: 1px solid rgba(255,255,255,0.2);">
+<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #A0C4FF 0%, #BDB2FF 50%, #FFADAD 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(160,196,255,0.3); border: 1px solid rgba(255,255,255,0.3);">
     <h1 style="color: white; font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
         <span class="blinking">✨</span> Spot the Shade
     </h1>

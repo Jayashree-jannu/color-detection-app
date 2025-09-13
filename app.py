@@ -33,11 +33,39 @@ st.markdown("""
         background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     }
     .stSidebar {
-        background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+        background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%) !important;
+        color: white !important;
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.9);
         border-radius: 10px;
+    }
+    .stSidebar .stSelectbox label {
+        color: white !important;
+    }
+    .stSidebar .stTextInput label {
+        color: white !important;
+    }
+    .stSidebar .stTextArea label {
+        color: white !important;
+    }
+    .stSidebar .stNumberInput label {
+        color: white !important;
+    }
+    .stSidebar .stSlider label {
+        color: white !important;
+    }
+    .stSidebar .stCheckbox label {
+        color: white !important;
+    }
+    .stSidebar .stRadio label {
+        color: white !important;
+    }
+    .stSidebar .stMultiSelect label {
+        color: white !important;
+    }
+    .stSidebar .stSelectbox > div > div > div {
+        color: #2c3e50 !important;
     }
     .stFileUploader > div {
         background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
@@ -104,7 +132,20 @@ st.markdown("""
         color: white;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-
+    .stSidebar .stMarkdown {
+        color: white !important;
+    }
+    .stSidebar .stMarkdown h1,
+    .stSidebar .stMarkdown h2,
+    .stSidebar .stMarkdown h3,
+    .stSidebar .stMarkdown h4,
+    .stSidebar .stMarkdown h5,
+    .stSidebar .stMarkdown h6 {
+        color: white !important;
+    }
+    .stSidebar .stMarkdown p {
+        color: rgba(255,255,255,0.9) !important;
+    }
     .blinking {
         animation: blink 1.5s infinite;
     }
@@ -112,8 +153,7 @@ st.markdown("""
     @keyframes blink {
         0%, 50% { opacity: 1; }
         51%, 100% { opacity: 0.3; }
-    }
-</style>
+    }</style>
 """, unsafe_allow_html=True)
 
 

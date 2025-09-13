@@ -30,34 +30,45 @@ st.markdown("""
         padding-top: 2rem;
     }
     .stApp {
-        background: linear-gradient(135deg, #e1bee7 0%, #ce93d8 100%);
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     }
     .stSidebar {
+        background: linear-gradient(180deg, #495057 0%, #343a40 100%) !important;
+        color: white !important;
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.9);
         border-radius: 10px;
     }
     .stSidebar .stSelectbox label {
+        color: white !important;
     }
     .stSidebar .stTextInput label {
+        color: white !important;
     }
     .stSidebar .stTextArea label {
+        color: white !important;
     }
     .stSidebar .stNumberInput label {
+        color: white !important;
     }
     .stSidebar .stSlider label {
+        color: white !important;
     }
     .stSidebar .stCheckbox label {
+        color: white !important;
     }
     .stSidebar .stRadio label {
+        color: white !important;
     }
     .stSidebar .stMultiSelect label {
+        color: white !important;
     }
     .stSidebar .stSelectbox > div > div > div {
+        color: #495057 !important;
     }
     .stFileUploader > div {
-        background: linear-gradient(180deg, #9c27b0 0%, #673ab7 100%);
+        background: linear-gradient(180deg, #495057 0%, #343a40 100%);
         border-radius: 20px;
         padding: 1.2rem;
         color: white;
@@ -65,7 +76,7 @@ st.markdown("""
         border: 1px solid rgba(255,255,255,0.1);
     }
     .stButton > button {
-        background: linear-gradient(180deg, #9c27b0 0%, #673ab7 100%);
+        background: linear-gradient(180deg, #495057 0%, #343a40 100%);
         color: white;
         border: none;
         border-radius: 15px;
@@ -80,7 +91,7 @@ st.markdown("""
         box-shadow: 0 6px 12px rgba(0,0,0,0.3);
     }
     .stSidebar .stButton > button {
-        background: linear-gradient(180deg, #9c27b0 0%, #673ab7 100%);
+        background: linear-gradient(180deg, #495057 0%, #343a40 100%);
         color: white;
         border: none;
         border-radius: 15px;
@@ -96,32 +107,33 @@ st.markdown("""
     .stSidebar .stButton > button:hover {
         transform: translateY(-2px);
         box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-        background: linear-gradient(180deg, #9c27b0 0%, #673ab7 100%);
+        background: linear-gradient(180deg, #495057 0%, #343a40 100%);
     }
-    .stSidebar .stButton > button[kind='primary'] {
-        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-        box-shadow: 0 6px 12px rgba(255,107,107,0.3);
+    .stSidebar .stButton > button[kind="primary"] {
+        background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+        box-shadow: 0 6px 12px rgba(108,117,125,0.3);
     }
-    .stSidebar .stButton > button[kind='primary']:hover {
-        background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+    .stSidebar .stButton > button[kind="primary"]:hover {
+        background: linear-gradient(135deg, #495057 0%, #6c757d 100%);
         transform: translateY(-3px);
-        box-shadow: 0 8px 16px rgba(255,107,107,0.4);
+        box-shadow: 0 8px 16px rgba(108,117,125,0.4);
     }
     .stInfo {
-        background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+        background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
         border-radius: 15px;
         border: 1px solid rgba(255,255,255,0.2);
         color: white;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     .stSuccess {
-        background: linear-gradient(135deg, #96ceb4 0%, #feca57 100%);
+        background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
         border-radius: 15px;
         border: 1px solid rgba(255,255,255,0.2);
         color: white;
         box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     .stSidebar .stMarkdown {
+        color: white !important;
     }
     .stSidebar .stMarkdown h1,
     .stSidebar .stMarkdown h2,
@@ -129,8 +141,10 @@ st.markdown("""
     .stSidebar .stMarkdown h4,
     .stSidebar .stMarkdown h5,
     .stSidebar .stMarkdown h6 {
+        color: white !important;
     }
     .stSidebar .stMarkdown p {
+        color: rgba(255,255,255,0.9) !important;
     }
     .blinking {
         animation: blink 1.5s infinite;
@@ -171,7 +185,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #9c27b0 0%, #673ab7 50%, #e91e63 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(156,39,176,0.4); border: 1px solid rgba(255,255,255,0.2);">
+<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #6c757d 0%, #495057 50%, #343a40 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(108,117,125,0.4); border: 1px solid rgba(255,255,255,0.2);">
     <h1 style="color: white; font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
         <span class="blinking">✨</span> Spot the Shade
     </h1>

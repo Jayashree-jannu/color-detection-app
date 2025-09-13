@@ -30,10 +30,10 @@ st.markdown("""
         padding-top: 2rem;
     }
     .stApp {
-        background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
+        background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
     }
     .stSidebar {
-        background: linear-gradient(180deg, #667eea 0%, #764ba2 100%) !important;
+        background: linear-gradient(180deg, #1e3a8a 0%, #3730a3 100%) !important;
         color: white !important;
     }
     .stSidebar .stSelectbox > div > div {
@@ -65,10 +65,10 @@ st.markdown("""
         color: white !important;
     }
     .stSidebar .stSelectbox > div > div > div {
-        color: #667eea !important;
+        color: #1e3a8a !important;
     }
     .stFileUploader > div {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(180deg, #1e3a8a 0%, #3730a3 100%);
         border-radius: 20px;
         padding: 1.2rem;
         color: white;
@@ -76,7 +76,7 @@ st.markdown("""
         border: 1px solid rgba(255,255,255,0.1);
     }
     .stButton > button {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(180deg, #1e3a8a 0%, #3730a3 100%);
         color: white;
         border: none;
         border-radius: 15px;
@@ -91,7 +91,7 @@ st.markdown("""
         box-shadow: 0 6px 12px rgba(0,0,0,0.3);
     }
     .stSidebar .stButton > button {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(180deg, #1e3a8a 0%, #3730a3 100%);
         color: white;
         border: none;
         border-radius: 15px;
@@ -107,7 +107,7 @@ st.markdown("""
     .stSidebar .stButton > button:hover {
         transform: translateY(-2px);
         box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        background: linear-gradient(180deg, #1e3a8a 0%, #3730a3 100%);
     }
     .stSidebar .stButton > button[kind="primary"] {
         background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
@@ -185,7 +185,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(102,126,234,0.4); border: 1px solid rgba(255,255,255,0.2);">
+<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #6366f1 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.2);">
     <h1 style="color: white; font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
         <span class="blinking">✨</span> Spot the Shade
     </h1>

@@ -8,10 +8,10 @@ enableXsrfProtection = false
 gatherUsageStats = false
 
 [theme]
-primaryColor = "#667eea"
-backgroundColor = "#f8f9ff"
-secondaryBackgroundColor = "#e8f4fd"
-textColor = "#667eea"
+primaryColor = "#1e3a8a"
+backgroundColor = "#ddd6fe"
+secondaryBackgroundColor = "#c4b5fd"
+textColor = "#1e3a8a"
 font = "sans serif"
 
 [client]

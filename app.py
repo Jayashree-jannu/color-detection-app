@@ -195,7 +195,7 @@ st.markdown("""
             border-radius: 20px; 
             margin-bottom: 2rem;
             text-align: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 25px rgba(107,70,193,0.4);
             border: 1px solid rgba(255,255,255,0.1);">
     <h2 style="color: white; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-family: 'Playfair Display', 'Georgia', serif; font-weight: 400; letter-spacing: 0.8px; font-size: 1.8rem;">
         Every pixel tells a color story
@@ -472,8 +472,8 @@ elif page == "🎨 About":
 
 # Beautiful footer
 st.markdown("""
-<div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a1a1a 100%); 
-            border-radius: 20px; margin-top: 2rem; box-shadow: 0 8px 25px rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1);">
+<div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #6B46C1 0%, #8B5CF6 50%, #A855F7 100%); 
+            border-radius: 20px; margin-top: 2rem; box-shadow: 0 8px 25px rgba(107,70,193,0.4); border: 1px solid rgba(255,255,255,0.1);">
     <h3 style="color: white; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
         ✨ Spot the Shade
     </h3>

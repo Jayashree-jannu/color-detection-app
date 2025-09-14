@@ -226,8 +226,16 @@ st.markdown("""
         animation: blink 1.5s infinite;
     }
     
+    @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    
     @keyframes blink {
         0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0.3; }
+    }
         51%, 100% { opacity: 0.3; }
     }</style>
 """, unsafe_allow_html=True)
@@ -452,8 +460,16 @@ st.markdown("""
         animation: blink 1.5s infinite;
     }
     
+    @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    
     @keyframes blink {
         0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0.3; }
+    }
         51%, 100% { opacity: 0.3; }
     }</style>
 """, unsafe_allow_html=True)

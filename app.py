@@ -35,13 +35,13 @@ st.markdown("""
     .stSidebar {
         background: linear-gradient(180deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%) !important;
         color: white !important;
-        border-right: 3px solid #7C3AED;
+        border-right: 1px solid rgba(124,58,237,0.3);
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.95);
         border-radius: 12px;
-        border: 2px solid #7C3AED;
-        box-shadow: 0 2px 8px rgba(124,58,237,0.3);
+        border: 1px solid rgba(124,58,237,0.2);
+        box-shadow: 0 2px 8px rgba(124,58,237,0.15);
     }
     .stSidebar .stSelectbox label {
         color: white !important;
@@ -92,7 +92,7 @@ st.markdown("""
         padding: 1.5rem;
         color: white;
         box-shadow: 0 8px 25px rgba(139,92,246,0.4);
-        border: 2px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.3);
         transition: all 0.3s ease;
     }
     .stFileUploader > div:hover {
@@ -108,7 +108,7 @@ st.markdown("""
         font-weight: 600;
         box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
-        border: 1px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.2);
     }
     .stButton > button:hover {
         transform: translateY(-3px);
@@ -127,7 +127,7 @@ st.markdown("""
         box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
         width: 100%;
-        border: 1px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.2);
     }
     .stSidebar .stButton > button:hover {
         transform: translateY(-3px);
@@ -137,7 +137,7 @@ st.markdown("""
     .stSidebar .stButton > button[kind="primary"] {
         background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
         box-shadow: 0 6px 20px rgba(236,72,153,0.4);
-        border: 1px solid #BE185D;
+        border: 1px solid rgba(190,24,93,0.3);
     }
     .stSidebar .stButton > button[kind="primary"]:hover {
         background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
@@ -147,33 +147,33 @@ st.markdown("""
     .stInfo {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
         border-radius: 20px;
-        border: 2px solid #4CAF50;
+        border: 1px solid rgba(76,175,80,0.3);
         color: #1B5E20;
-        box-shadow: 0 8px 25px rgba(76,175,80,0.3);
+        box-shadow: 0 8px 25px rgba(76,175,80,0.2);
         padding: 1rem;
     }
     .stSuccess {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
         border-radius: 20px;
-        border: 2px solid #4CAF50;
+        border: 1px solid rgba(76,175,80,0.3);
         color: #1B5E20;
-        box-shadow: 0 8px 25px rgba(76,175,80,0.3);
+        box-shadow: 0 8px 25px rgba(76,175,80,0.2);
         padding: 1rem;
     }
     .stWarning {
         background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
         border-radius: 20px;
-        border: 2px solid #FF9800;
+        border: 1px solid rgba(255,152,0,0.3);
         color: #E65100;
-        box-shadow: 0 8px 25px rgba(255,152,0,0.3);
+        box-shadow: 0 8px 25px rgba(255,152,0,0.2);
         padding: 1rem;
     }
     .stError {
         background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%);
         border-radius: 20px;
-        border: 2px solid #F44336;
+        border: 1px solid rgba(244,67,54,0.3);
         color: #B71C1C;
-        box-shadow: 0 8px 25px rgba(244,67,54,0.3);
+        box-shadow: 0 8px 25px rgba(244,67,54,0.2);
         padding: 1rem;
     }
     .stSidebar .stMarkdown {
@@ -209,17 +209,17 @@ st.markdown("""
     .stContainer {
         background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);
         border-radius: 20px;
-        border: 2px solid #9C27B0;
+        border: 1px solid rgba(156,39,176,0.2);
         padding: 1.5rem;
         margin: 1rem 0;
-        box-shadow: 0 8px 25px rgba(156,39,176,0.2);
+        box-shadow: 0 8px 25px rgba(156,39,176,0.1);
     }
     /* Enhanced caption styling */
     .stCaption {
         background: rgba(255,255,255,0.9);
         border-radius: 8px;
         padding: 0.5rem;
-        border: 1px solid #E0E0E0;
+        border: 1px solid rgba(224,224,224,0.5);
         color: #424242;
     }
     .blinking {
@@ -261,13 +261,13 @@ st.markdown("""
     .stSidebar {
         background: linear-gradient(180deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%) !important;
         color: white !important;
-        border-right: 3px solid #7C3AED;
+        border-right: 1px solid rgba(124,58,237,0.3);
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.95);
         border-radius: 12px;
-        border: 2px solid #7C3AED;
-        box-shadow: 0 2px 8px rgba(124,58,237,0.3);
+        border: 1px solid rgba(124,58,237,0.2);
+        box-shadow: 0 2px 8px rgba(124,58,237,0.15);
     }
     .stSidebar .stSelectbox label {
         color: white !important;
@@ -318,7 +318,7 @@ st.markdown("""
         padding: 1.5rem;
         color: white;
         box-shadow: 0 8px 25px rgba(139,92,246,0.4);
-        border: 2px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.3);
         transition: all 0.3s ease;
     }
     .stFileUploader > div:hover {
@@ -334,7 +334,7 @@ st.markdown("""
         font-weight: 600;
         box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
-        border: 1px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.2);
     }
     .stButton > button:hover {
         transform: translateY(-3px);
@@ -353,7 +353,7 @@ st.markdown("""
         box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
         width: 100%;
-        border: 1px solid #7C3AED;
+        border: 1px solid rgba(124,58,237,0.2);
     }
     .stSidebar .stButton > button:hover {
         transform: translateY(-3px);
@@ -363,7 +363,7 @@ st.markdown("""
     .stSidebar .stButton > button[kind="primary"] {
         background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
         box-shadow: 0 6px 20px rgba(236,72,153,0.4);
-        border: 1px solid #BE185D;
+        border: 1px solid rgba(190,24,93,0.3);
     }
     .stSidebar .stButton > button[kind="primary"]:hover {
         background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
@@ -373,33 +373,33 @@ st.markdown("""
     .stInfo {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
         border-radius: 20px;
-        border: 2px solid #4CAF50;
+        border: 1px solid rgba(76,175,80,0.3);
         color: #1B5E20;
-        box-shadow: 0 8px 25px rgba(76,175,80,0.3);
+        box-shadow: 0 8px 25px rgba(76,175,80,0.2);
         padding: 1rem;
     }
     .stSuccess {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
         border-radius: 20px;
-        border: 2px solid #4CAF50;
+        border: 1px solid rgba(76,175,80,0.3);
         color: #1B5E20;
-        box-shadow: 0 8px 25px rgba(76,175,80,0.3);
+        box-shadow: 0 8px 25px rgba(76,175,80,0.2);
         padding: 1rem;
     }
     .stWarning {
         background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
         border-radius: 20px;
-        border: 2px solid #FF9800;
+        border: 1px solid rgba(255,152,0,0.3);
         color: #E65100;
-        box-shadow: 0 8px 25px rgba(255,152,0,0.3);
+        box-shadow: 0 8px 25px rgba(255,152,0,0.2);
         padding: 1rem;
     }
     .stError {
         background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%);
         border-radius: 20px;
-        border: 2px solid #F44336;
+        border: 1px solid rgba(244,67,54,0.3);
         color: #B71C1C;
-        box-shadow: 0 8px 25px rgba(244,67,54,0.3);
+        box-shadow: 0 8px 25px rgba(244,67,54,0.2);
         padding: 1rem;
     }
     .stSidebar .stMarkdown {
@@ -435,17 +435,17 @@ st.markdown("""
     .stContainer {
         background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);
         border-radius: 20px;
-        border: 2px solid #9C27B0;
+        border: 1px solid rgba(156,39,176,0.2);
         padding: 1.5rem;
         margin: 1rem 0;
-        box-shadow: 0 8px 25px rgba(156,39,176,0.2);
+        box-shadow: 0 8px 25px rgba(156,39,176,0.1);
     }
     /* Enhanced caption styling */
     .stCaption {
         background: rgba(255,255,255,0.9);
         border-radius: 8px;
         padding: 0.5rem;
-        border: 1px solid #E0E0E0;
+        border: 1px solid rgba(224,224,224,0.5);
         color: #424242;
     }
     .blinking {

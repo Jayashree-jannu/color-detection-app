@@ -33,82 +33,90 @@ st.markdown("""
         background: #F8F9FA;
     }
     .stSidebar {
-        background: linear-gradient(180deg, #E3F2FD 0%, #BBDEFB 100%) !important;
-        color: #1A237E !important;
-        border-right: 3px solid #2196F3;
+        background: linear-gradient(180deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%) !important;
+        color: white !important;
+        border-right: 3px solid #7C3AED;
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.95);
         border-radius: 12px;
-        border: 2px solid #2196F3;
-        box-shadow: 0 2px 8px rgba(33,150,243,0.2);
+        border: 2px solid #7C3AED;
+        box-shadow: 0 2px 8px rgba(124,58,237,0.3);
     }
     .stSidebar .stSelectbox label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stTextInput label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stTextArea label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stNumberInput label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stSlider label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stCheckbox label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stRadio label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stMultiSelect label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stSelectbox > div > div > div {
-        color: #1A237E !important;
+        color: #4C1D95 !important;
     }
     .stFileUploader > div {
-        background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         border-radius: 20px;
         padding: 1.5rem;
-        color: #1A237E;
-        box-shadow: 0 8px 25px rgba(33,150,243,0.3);
-        border: 2px solid #2196F3;
+        color: white;
+        box-shadow: 0 8px 25px rgba(139,92,246,0.4);
+        border: 2px solid #7C3AED;
         transition: all 0.3s ease;
     }
     .stFileUploader > div:hover {
         transform: translateY(-2px);
-        box-shadow: 0 12px 30px rgba(33,150,243,0.4);
+        box-shadow: 0 12px 30px rgba(139,92,246,0.5);
     }
     .stButton > button {
-        background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         color: white;
         border: none;
         border-radius: 20px;
         padding: 0.8rem 1.5rem;
         font-weight: 600;
-        box-shadow: 0 6px 20px rgba(33,150,243,0.3);
+        box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
-        border: 1px solid #1565C0;
+        border: 1px solid #7C3AED;
     }
     .stButton > button:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(33,150,243,0.4);
-        background: linear-gradient(135deg, #1976D2 0%, #2196F3 100%);
+        box-shadow: 0 10px 25px rgba(139,92,246,0.5);
+        background: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%);
     }
     .stSidebar .stButton > button {
-        background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         color: white;
         border: none;
         border-radius: 20px;
@@ -116,25 +124,25 @@ st.markdown("""
         font-weight: 600;
         font-size: 1rem;
         margin: 0.5rem 0;
-        box-shadow: 0 6px 20px rgba(33,150,243,0.3);
+        box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
         width: 100%;
-        border: 1px solid #1565C0;
+        border: 1px solid #7C3AED;
     }
     .stSidebar .stButton > button:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(33,150,243,0.4);
-        background: linear-gradient(135deg, #1976D2 0%, #2196F3 100%);
+        box-shadow: 0 10px 25px rgba(139,92,246,0.5);
+        background: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%);
     }
     .stSidebar .stButton > button[kind="primary"] {
-        background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
-        box-shadow: 0 6px 20px rgba(255,87,34,0.4);
-        border: 1px solid #D84315;
+        background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
+        box-shadow: 0 6px 20px rgba(236,72,153,0.4);
+        border: 1px solid #BE185D;
     }
     .stSidebar .stButton > button[kind="primary"]:hover {
-        background: linear-gradient(135deg, #E64A19 0%, #FF5722 100%);
+        background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(255,87,34,0.5);
+        box-shadow: 0 10px 25px rgba(236,72,153,0.5);
     }
     .stInfo {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
@@ -169,7 +177,7 @@ st.markdown("""
         padding: 1rem;
     }
     .stSidebar .stMarkdown {
-        color: #1A237E !important;
+        color: white !important;
     }
     .stSidebar .stMarkdown h1,
     .stSidebar .stMarkdown h2,
@@ -177,11 +185,13 @@ st.markdown("""
     .stSidebar .stMarkdown h4,
     .stSidebar .stMarkdown h5,
     .stSidebar .stMarkdown h6 {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 700;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stMarkdown p {
-        color: #283593 !important;
+        color: #F3E8FF !important;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
     .stMarkdown h1,
     .stMarkdown h2,
@@ -249,82 +259,90 @@ st.markdown("""
         background: #F8F9FA;
     }
     .stSidebar {
-        background: linear-gradient(180deg, #E3F2FD 0%, #BBDEFB 100%) !important;
-        color: #1A237E !important;
-        border-right: 3px solid #2196F3;
+        background: linear-gradient(180deg, #8B5CF6 0%, #A855F7 50%, #C084FC 100%) !important;
+        color: white !important;
+        border-right: 3px solid #7C3AED;
     }
     .stSidebar .stSelectbox > div > div {
         background-color: rgba(255,255,255,0.95);
         border-radius: 12px;
-        border: 2px solid #2196F3;
-        box-shadow: 0 2px 8px rgba(33,150,243,0.2);
+        border: 2px solid #7C3AED;
+        box-shadow: 0 2px 8px rgba(124,58,237,0.3);
     }
     .stSidebar .stSelectbox label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stTextInput label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stTextArea label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stNumberInput label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stSlider label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stCheckbox label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stRadio label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stMultiSelect label {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stSelectbox > div > div > div {
-        color: #1A237E !important;
+        color: #4C1D95 !important;
     }
     .stFileUploader > div {
-        background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         border-radius: 20px;
         padding: 1.5rem;
-        color: #1A237E;
-        box-shadow: 0 8px 25px rgba(33,150,243,0.3);
-        border: 2px solid #2196F3;
+        color: white;
+        box-shadow: 0 8px 25px rgba(139,92,246,0.4);
+        border: 2px solid #7C3AED;
         transition: all 0.3s ease;
     }
     .stFileUploader > div:hover {
         transform: translateY(-2px);
-        box-shadow: 0 12px 30px rgba(33,150,243,0.4);
+        box-shadow: 0 12px 30px rgba(139,92,246,0.5);
     }
     .stButton > button {
-        background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         color: white;
         border: none;
         border-radius: 20px;
         padding: 0.8rem 1.5rem;
         font-weight: 600;
-        box-shadow: 0 6px 20px rgba(33,150,243,0.3);
+        box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
-        border: 1px solid #1565C0;
+        border: 1px solid #7C3AED;
     }
     .stButton > button:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(33,150,243,0.4);
-        background: linear-gradient(135deg, #1976D2 0%, #2196F3 100%);
+        box-shadow: 0 10px 25px rgba(139,92,246,0.5);
+        background: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%);
     }
     .stSidebar .stButton > button {
-        background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
         color: white;
         border: none;
         border-radius: 20px;
@@ -332,25 +350,25 @@ st.markdown("""
         font-weight: 600;
         font-size: 1rem;
         margin: 0.5rem 0;
-        box-shadow: 0 6px 20px rgba(33,150,243,0.3);
+        box-shadow: 0 6px 20px rgba(139,92,246,0.4);
         transition: all 0.3s ease;
         width: 100%;
-        border: 1px solid #1565C0;
+        border: 1px solid #7C3AED;
     }
     .stSidebar .stButton > button:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(33,150,243,0.4);
-        background: linear-gradient(135deg, #1976D2 0%, #2196F3 100%);
+        box-shadow: 0 10px 25px rgba(139,92,246,0.5);
+        background: linear-gradient(135deg, #A855F7 0%, #8B5CF6 100%);
     }
     .stSidebar .stButton > button[kind="primary"] {
-        background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);
-        box-shadow: 0 6px 20px rgba(255,87,34,0.4);
-        border: 1px solid #D84315;
+        background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
+        box-shadow: 0 6px 20px rgba(236,72,153,0.4);
+        border: 1px solid #BE185D;
     }
     .stSidebar .stButton > button[kind="primary"]:hover {
-        background: linear-gradient(135deg, #E64A19 0%, #FF5722 100%);
+        background: linear-gradient(135deg, #DB2777 0%, #EC4899 100%);
         transform: translateY(-3px);
-        box-shadow: 0 10px 25px rgba(255,87,34,0.5);
+        box-shadow: 0 10px 25px rgba(236,72,153,0.5);
     }
     .stInfo {
         background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
@@ -385,7 +403,7 @@ st.markdown("""
         padding: 1rem;
     }
     .stSidebar .stMarkdown {
-        color: #1A237E !important;
+        color: white !important;
     }
     .stSidebar .stMarkdown h1,
     .stSidebar .stMarkdown h2,
@@ -393,11 +411,13 @@ st.markdown("""
     .stSidebar .stMarkdown h4,
     .stSidebar .stMarkdown h5,
     .stSidebar .stMarkdown h6 {
-        color: #1A237E !important;
+        color: white !important;
         font-weight: 700;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .stSidebar .stMarkdown p {
-        color: #283593 !important;
+        color: #F3E8FF !important;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
     .stMarkdown h1,
     .stMarkdown h2,

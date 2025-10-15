@@ -474,17 +474,6 @@ st.markdown("""
     }</style>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<div style="text-align: center; padding: 2.5rem 0; background: linear-gradient(135deg, #6B46C1 0%, #8B5CF6 50%, #A855F7 100%); border-radius: 25px; margin-bottom: 2rem; box-shadow: 0 15px 35px rgba(107,70,193,0.4); border: 1px solid rgba(255,255,255,0.3);">
-    <h1 style="color: white; font-size: 3.5rem; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-        <span class="blinking">✨</span> Spot the Shade
-    </h1>
-    <p style="color: #f0f0f0; font-size: 1.5rem; margin: 0.5rem 0 0 0; font-family: 'Playfair Display', 'Georgia', serif; font-weight: 300; font-style: italic; text-shadow: 2px 2px 4px rgba(0,0,0,0.4); letter-spacing: 1.2px; line-height: 1.3;">
-        Every pixel tells a color story
-    </p>
-</div>
-""", unsafe_allow_html=True)
-
 # Setup directories
 os.makedirs("uploads", exist_ok=True)
 os.makedirs("data", exist_ok=True)
